@@ -55,6 +55,10 @@ a{
 .col-12{width: 100%;}
 
 
+
+section{
+    padding: 50px 0;
+}
 hr{
     color: #dcdde1;
 }
@@ -134,7 +138,30 @@ div.aboutp2 p{
     word-spacing: 1px;
     font-weight: 600;
 }
- 
+
+/********section3-services******/
+
+section.services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    
+}
+div.services-header p{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+    font-weight: bold;
+}
+div.services-text p{
+    font-size: 0.8rem;
+    word-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+    
+}
+
 
 
 
@@ -170,6 +197,14 @@ div.aboutp2 p{
     div.aboutp1 p,
     div.aboutp2 p{
     word-spacing: 2.3px;
+    }
+
+    /*section3-services****/
+    section.services{
+        padding:50px 7px;
+    }
+    section.services br{
+        display: none;
     }
 
 
