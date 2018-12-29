@@ -1,0 +1,136 @@
+
+/*******defaults******/
+
+nav,header,footer{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Dosi','Open Sans','San-serif';
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    line-height: 1;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+hr{
+    color: #dcdde1;
+}
+
+/*******header********/
+header{
+    text-align: center;
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+div.herotext-box{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div.herotext-box p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+div.delani-logo p{
+    margin-bottom: 20px;
+}
+div.delani-logo p a:link,
+div.delani-logo p a:visited{
+    font-size: 2.4rem;
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+}
+div.delani-welcome{
+    font-size: 2.5rem;
+    font-weight: 150;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+div.delani-amaze{
+    margin: 20px 0;
+    font-weight: 900;
+    font-size: 0.8rem;
+    line-height: 1.1;
+}
+img.heromouse{
+    margin-top: 80px;
+   
+}
+
+
+
+
+
+
+
+/**************mobile Styles**********/
+
+@media screen and (max-width: 680px){
+
+    /********header*******/
+
+    div.herotext-box{
+        top: 45%; 
+    }
+
+    div.delani-welcome{
+        font-size: 1.6rem;
+    }
+    div.delani-amaze{
+        font-size: 0.7rem; 
+        line-height: 1.2;
+    }
+}
