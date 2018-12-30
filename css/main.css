@@ -275,6 +275,23 @@ div.contact-btn button:hover{
 }
 
 
+/* section7-footer */
+section.footsy{
+    text-align: center;
+}
+div.footer-imgs{
+    margin-bottom: 10px;
+}
+div.footer-imgs img{
+    margin: 7px 5px;
+}
+div.footer-msg p{
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 0.8rem;
+}
+
+
 
 
 /**************mobile Styles**********/
@@ -355,6 +372,12 @@ div.contact-btn button:hover{
        width: 250px;
        height: 250px;
    }
+
+   /* section7-footer */
+   div.footer-imgs img{
+       margin: 7px 0;
+   }
+   
 
 
 }
