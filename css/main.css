@@ -230,6 +230,51 @@ div.imgrow1{
 }
 
 
+/* section6-contact us */
+section.contact{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+section.contact h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+form.contact-us{
+    background: transparent;
+}
+form.contact-us input,
+form.contact-us textarea,
+div.contact-btn button{
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-style: italic;
+
+}
+input.contact-email{
+    margin-left: 240px;
+}
+div.contact-btn button{
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+div.contact-btn button:hover{
+    border: 2px solid #fff;
+}
+
+
 
 
 /**************mobile Styles**********/
@@ -290,5 +335,26 @@ div.imgrow1{
        border: 1px solid gray;
        border-radius: 5px;
    }
+
+   /* section6-contact us */
+   input.contact-email{
+    margin-left: 0;
+   }
+   section.contact h2{
+       font-size: 1.1rem;
+   }
+   div.contact-btn button{
+       font-size: 1rem;
+   }
+   form.contact-us input,
+   form.contact-us textarea,
+   div.contact-btn button{
+    margin-bottom: 15px;
+   }
+   form.contact-us textarea{
+       width: 250px;
+       height: 250px;
+   }
+
 
 }
